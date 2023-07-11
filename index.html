@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio Website-Ümid</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- styles.css -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <script src="script/srcscript.js"></script>
+    <!-- font awesome -->
+    <script src="script/kit-fontawsome.js" crossorigin="anonymous"></script>
+    <!-- linking css file -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+      <div class="container">
+        <a class="navbar-brand" href="#">Umid</a>
+        <button
+          id="navbar-icon"
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"
+            ><i class="fas fa-bars" style="color: #fff; font-size: 28px"></i
+          ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">More Info</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main banner -->
+
+    <section class="container-fluid section bgimage" id="home">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero_text">
+          <h2 class="hero_title">Hi, it's me Umid</h2>
+          <p class="hero_desc">I am a Web-Developer in Azerbaijan</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section class="container mt-4 pt-4 section" id="about">
+      <h1 class="text-center">About Me</h1>
+
+      <div class="row mt-4">
+        <div class="col-lg-6">
+          <img src="images/about.jpeg" class="image_about" alt="" />
+        </div>
+
+        <div class="col-lg-6">
+          <p>
+            Welcome to my website! I'm Umid, a passionate web developer with 2
+            years of experience in creating stunning and functional websites. I
+            have a strong background in front-end and back-end development, as
+            well as a deep understanding of various programming languages and
+            frameworks.
+          </p>
+          <div class="row mt-3">
+            <div class="col-md-6">
+              <ul>
+                <li>Proficiency in HTML, CSS, and JavaScript</li>
+                <li>Front-end development (UI/UX)</li>
+                <li>Back-end development (server-side)</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li>Version control (e.g., Git)</li>
+                <li>Problem solving and debugging skills</li>
+                <li>Effective communication and collaboration</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <p>
+              When I'm not coding, you'll often find me exploring the latest
+              advancements in web development, reading tech blogs, or
+              experimenting with new tools and frameworks. I'm a firm believer
+              in lifelong learning, and I'm continuously seeking new challenges
+              and opportunities to expand my skill set. Thank you for visiting
+              my website. If you have a project in mind or if you'd simply like
+              to connect, feel free to reach out. I look forward to working with
+              you and bringing your web development ideas to life!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section-->
+
+    <section class="container section" id="services">
+      <h1 class="text-center">Services</h1>
+      <div class="row">
+        <div class="col-lg-4 mt-4">
+          <div class="card servicesText">
+            <div class="card-body">
+              <i class="fas servicesIcon fa-clock"></i>
+              <h4 class="card-title mt-3">Website Development</h4>
+              <p class="card-text mt-3">
+                I specialize in building tailor-made websites from scratch,
+                precisely designed to meet the unique needs and goals of my
+                clients. This involves developing the website's structure,
+                implementing desired features and functionalities, and ensuring
+                a seamless user experience.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-4">
+          <div class="card servicesText">
+            <div class="card-body">
+              <i class="fas servicesIcon fa-layer-group"></i>
+              <h4 class="card-title mt-3">Website Design</h4>
+              <p class="card-text mt-3">
+                I design and develop websites that are optimized for various
+                devices, including desktops, tablets, and mobile phones.
+                Ensuring responsiveness and compatibility across different
+                screen sizes and resolutions is crucial for delivering an
+                excellent user experience.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mt-4">
+          <div class="card servicesText">
+            <div class="card-body">
+              <i class="far servicesIcon fa-check-circle"></i>
+              <h4 class="card-title mt-3">Website Deployment</h4>
+              <p class="card-text mt-3">
+                I select a reliable web hosting provider that meets your
+                website's requirements in terms of server resources, bandwidth,
+                security, and scalability.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 mt-4">
+          <div class="card servicesText">
+            <div class="card-body">
+              <i class="fas servicesIcon fa-search"></i>
+              <h4 class="card-title mt-3">SEO</h4>
+              <p class="card-text mt-3">
+                I develop websites with search engine optimization (SEO) in
+                mind, implementing SEO best practices like proper meta tags, URL
+                structure, and site architecture. This helps my clients improve
+                their visibility and ranking in search engine results.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mt-4">
+          <div class="card servicesText">
+            <div class="card-body">
+              <i class="fas servicesIcon fa-shield-alt"></i>
+              <h4 class="card-title mt-3">SSL Certificate Installation</h4>
+              <p class="card-text mt-3">
+                If my costumers` website collects sensitive information or
+                handles online transactions, I'll be installing an SSL
+                certificate to secure data transmission. This ensures that my
+                costumers`website uses HTTPS and provides a secure browsing
+                experience for users.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mt-4">
+          <div class="card servicesText">
+            <div class="card-body">
+              <i class="fas servicesIcon fa-wrench"></i>
+              <h4 class="card-title mt-3">QA</h4>
+              <p class="card-text mt-3">
+                By implementing thorough QA practices, I can deliver
+                high-quality software products that meet user expectations,
+                enhance user satisfaction, and minimize the risk of software
+                failures or issues in production environments.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section-->
+    <section class="section" id="portfolio">
+      <div class="container mt-3">
+        <h1 class="text-center">More Info</h1>
+        <div class="row">
+          <div class="col-lg-4 mt-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/portfolioImage1.jpeg"
+                alt="Card image"
+                style="width: 100%"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Customized Solutions</h4>
+                <p class="card-text">
+                  We take a personalized approach to each project. We don't
+                  believe in one-size-fits-all solutions. Instead, we carefully
+                  analyze your business objectives, target market, and user
+                  preferences to craft a website that truly represents your
+                  brand and engages your audience.
+                </p>
+                <div class="text-center">
+                  <a href="#" class="btn btn-success">Link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/portfolioImage4.jpeg"
+                alt="Card image"
+                style="width: 100%"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Collaborative Approach</h4>
+                <p class="card-text">
+                  We view our clients as partners in the web development
+                  journey. We take the time to understand your business, goals,
+                  and target audience. Through collaborative brainstorming
+                  sessions and regular progress updates, we ensure that we are
+                  on the same page every step of the way.
+                </p>
+                <div class="text-center">
+                  <a href="#" class="btn btn-success">Link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/portfolioImage3.jpeg"
+                alt="Card image"
+                style="width: 100%"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Commitment to Deadlines</h4>
+                <p class="card-text">
+                  I take your project deadlines seriously. I am dedicated to
+                  delivering projects on time and within the agreed-upon
+                  timeframe. I prioritize effective project management,
+                  efficient resource allocation, and proactive communication to
+                  ensure that your project stays on schedule.I understand that
+                  it is crucial to your business success.
+                </p>
+                <div class="text-center">
+                  <a href="#" class="btn btn-success">Link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-lg-4 mt-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/portfolioImage2.jpeg"
+                alt="Card image"
+                style="width: 100%"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Web Application Development</h4>
+                <p class="card-text">
+                  I develop dynamic and interactive web applications that
+                  provide advanced functionalities and enhance user engagement.
+                  Utilize frameworks and programming languages like React.js, or
+                  Node.js and etc. to create robust and scalable web
+                  applications.
+                </p>
+                <div class="text-center">
+                  <a href="#" class="btn btn-success">Link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/portfolioImage5.jpeg"
+                alt="Card image"
+                style="width: 100%"
+              />
+              <div class="card-body">
+                <h4 class="card-title">API Development and Integration</h4>
+                <p class="card-text">
+                  I develop and integrate APIs to connect websites or web
+                  applications with external services or platforms. This can
+                  include integrating payment gateways, social media APIs,
+                  mapping services, and more. I will enhance the capabilities of
+                  your website with power of APIs and creating seamless and
+                  efficient interactions with third-party systems.
+                </p>
+                <div class="text-center">
+                  <a href="#" class="btn btn-success">Link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/portfolioImage6.jpeg"
+                alt="Card image"
+                style="width: 100%"
+              />
+              <div class="card-body">
+                <h4 class="card-title">E-commerce Development</h4>
+                <p class="card-text">
+                  Unlock the potential of online selling with our specialized
+                  e-commerce development services. We design and build secure,
+                  user-friendly, and scalable e-commerce websites that drive
+                  conversions and revenue. From shopping cart integration and
+                  payment gateway setup to product catalog management and order
+                  processing systems, we provide end-to-end solutions tailored
+                  to your business needs.
+                </p>
+                <div class="text-center">
+                  <a href="#" class="btn btn-success">Link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+      <div class="container mt-3 contactContent">
+        <h1 class="text-center">Contact Me</h1>
+
+        <div class="row mt-4">
+          <div class="col-lg-6">
+            <!--  google map html  -->
+            <div
+              style="
+                max-width: 100%;
+                overflow: hidden;
+                color: red;
+                width: 500px;
+                height: 500px;
+              "
+            >
+              <div
+                id="embedmap-canvas"
+                style="height: 100%; width: 100%; max-width: 100%"
+              >
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48404.68738385336!2d45.36282273324773!3d39.19949325566529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40142e7307d10ea5%3A0xbcd74fc07d9ab2bd!2sNakhchivan!5e0!3m2!1sen!2saz!4v1688987524768!5m2!1sen!2saz"
+                  width="600"
+                  height="450"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <a
+                class="googlemaps-html"
+                href="https://www.embed-map.com"
+                id="get-data-forembedmap"
+                >https://www.embed-map.com</a
+              >
+              <style>
+                #embedmap-canvas img {
+                  max-width: none !important;
+                  background: none !important;
+                  font-size: inherit;
+                  font-weight: inherit;
+                }
+              </style>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <!-- form fields -->
+            <form>
+              <input
+                type="text"
+                class="form-control form-control-lg"
+                placeholder="Name"
+              />
+              <input
+                type="email"
+                class="form-control mt-3"
+                placeholder="Email"
+              />
+              <input
+                type="text"
+                class="form-control mt-3"
+                placeholder="Subject"
+              />
+              <div class="mb-3 mt-3">
+                <textarea
+                  class="form-control"
+                  rows="5"
+                  id="comment"
+                  name="text"
+                  placeholder="Project Details"
+                ></textarea>
+              </div>
+            </form>
+            <button type="button" class="btn btn-success mt-3">
+              Contact Me
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section-->
+    <footer id="footer">
+      <div class="container-fluid">
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+          <a
+            href="https://www.fiverr.com/umidehmedov?up_rollout=true"
+            target="_blank"
+            ><img
+              width="40"
+              height="40"
+              src="https://img.icons8.com/ios/50/fiverr--v2.png"
+              alt="fiverr--v2"
+          /></a>
+          <a
+            href="https://www.instagram.com/proqramci_aze?r=nametag"
+            target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <!-- <a href="https://www.twitter.com/" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a> -->
+          <a
+            href="https://www.linkedin.com/in/umid-ahmedov-9450b6279"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <!-- <a href="https://www.twitch.tv/" target="_blank"
+            ><i class="fab fa-twitch"></i
+          ></a> -->
+        </div>
+      </div>
+    </footer>
+
+    <!--  javascript -->
+    <script src="script/script.js"></script>
+  </body>
+</html>
